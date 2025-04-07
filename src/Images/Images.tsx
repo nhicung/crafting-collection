@@ -29,6 +29,7 @@ export default function TitlebarImageList() {
                 fontWeight: 'bold',
                 textAlign: 'center',
                 backgroundColor: 'transparent',
+                color: 'white',
               }}
             >
               {category}
