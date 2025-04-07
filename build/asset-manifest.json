@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/crafting-collection/static/css/main.c52c3a18.css",
-    "main.js": "/crafting-collection/static/js/main.1e5a573f.js",
+    "main.js": "/crafting-collection/static/js/main.bd8d8ace.js",
     "index.html": "/crafting-collection/index.html",
     "main.c52c3a18.css.map": "/crafting-collection/static/css/main.c52c3a18.css.map",
-    "main.1e5a573f.js.map": "/crafting-collection/static/js/main.1e5a573f.js.map"
+    "main.bd8d8ace.js.map": "/crafting-collection/static/js/main.bd8d8ace.js.map"
   },
   "entrypoints": [
     "static/css/main.c52c3a18.css",
-    "static/js/main.1e5a573f.js"
+    "static/js/main.bd8d8ace.js"
   ]
 }
