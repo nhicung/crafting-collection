@@ -37,4 +37,9 @@
 
 .mySwiper .swiper-slide-thumb-active {
   opacity: 1;
-} 
+}
+
+.mySwiper .swiper-wrapper {
+  display: flex;
+  justify-content: center;
+}
