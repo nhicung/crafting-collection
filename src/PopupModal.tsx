@@ -1,7 +1,7 @@
 import React from 'react';
 import { Modal, Box } from '@mui/material';
-import Carousel from './Carousel/Carousel';
-import type { Image } from './Images/Images';
+import Carousel from './components/Carousel/Carousel';
+import type { Image } from './components/Images/Images';
 
 interface ModalProps {
   open: boolean;
