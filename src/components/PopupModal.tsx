@@ -1,7 +1,7 @@
 import React from 'react';
 import { Modal, Box } from '@mui/material';
-import Carousel from './components/Carousel/Carousel';
-import type { Image } from './components/Images/Images';
+import Carousel from './Carousel/Carousel';
+import type { Image } from './Images/Images';
 
 interface ModalProps {
   open: boolean;
@@ -18,13 +18,13 @@ const style = {
   bgcolor: 'white',
   border: '2px solid #000',
   boxShadow: 24,
-  p: 4,
+  p: { xs: 2, sm: 4 },
   maxWidth: '90vw',
   maxHeight: '90vh',
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  outline: 'none',
+  outline: 'none'
 };
 
 export default function PopupModal({ open, onClose, imageUrl }: ModalProps) {

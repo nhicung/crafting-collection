@@ -51,9 +51,15 @@ export default function Carousel({ images }: CarouselProps) {
         slidesPerView={4}
         freeMode={true}
         watchSlidesProgress={true}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }}
         modules={[FreeMode, Navigation, Thumbs]}
         className='mySwiper'
       >
+        <div className='swiper-button-next' />
+        <div className='swiper-button-prev' />
         {images.map((item) => (
           <SwiperSlide key={item.url}>
             <img src={item.url} alt={item.alt} />

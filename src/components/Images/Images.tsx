@@ -5,7 +5,7 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 import ListSubheader from '@mui/material/ListSubheader';
 import IconButton from '@mui/material/IconButton';
 import Box from '@mui/material/Box';
-import PopupModal from '../../PopupModal';
+import PopupModal from '../PopupModal';
 
 export default function TitlebarImageList() {
   const [selectedImage, setSelectedImage] = React.useState<{
@@ -35,11 +35,15 @@ export default function TitlebarImageList() {
       >
         {categories.map((category) => (
           <React.Fragment key={category}>
-            <ImageListItem cols={4}>
+            <ImageListItem
+              sx={{
+                gridColumn: { xs: 'span 2', sm: 'span 4' },
+              }}
+            >
               <ListSubheader
                 component='div'
                 sx={{
-                  fontSize: '1.5rem',
+                  fontSize: { xs: '1rem', sm: '1.5rem' },
                   fontWeight: 'bold',
                   textAlign: 'center',
                   backgroundColor: 'transparent',

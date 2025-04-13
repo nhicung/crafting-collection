@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/crafting-collection/static/css/main.bbf0fbeb.css",
-    "main.js": "/crafting-collection/static/js/main.3749efe7.js",
+    "main.css": "/crafting-collection/static/css/main.4b6bad1b.css",
+    "main.js": "/crafting-collection/static/js/main.5e5e3652.js",
     "static/media/crafting-hero.png": "/crafting-collection/static/media/crafting-hero.0edb7b28ade992515ad2.png",
+    "static/media/crafting-hero-mobile.png": "/crafting-collection/static/media/crafting-hero-mobile.3ba1ef53d5dc2f2d113e.png",
     "index.html": "/crafting-collection/index.html",
-    "main.bbf0fbeb.css.map": "/crafting-collection/static/css/main.bbf0fbeb.css.map",
-    "main.3749efe7.js.map": "/crafting-collection/static/js/main.3749efe7.js.map"
+    "main.4b6bad1b.css.map": "/crafting-collection/static/css/main.4b6bad1b.css.map",
+    "main.5e5e3652.js.map": "/crafting-collection/static/js/main.5e5e3652.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbf0fbeb.css",
-    "static/js/main.3749efe7.js"
+    "static/css/main.4b6bad1b.css",
+    "static/js/main.5e5e3652.js"
   ]
 }
