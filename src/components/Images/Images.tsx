@@ -5,7 +5,7 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 import ListSubheader from '@mui/material/ListSubheader';
 import IconButton from '@mui/material/IconButton';
 import Box from '@mui/material/Box';
-import PopupModal from '../PopupModal';
+import PopupModal from '../../PopupModal';
 
 export default function TitlebarImageList() {
   const [selectedImage, setSelectedImage] = React.useState<{
@@ -35,7 +35,7 @@ export default function TitlebarImageList() {
       >
         {categories.map((category) => (
           <React.Fragment key={category}>
-            <ImageListItem cols={3}>
+            <ImageListItem cols={4}>
               <ListSubheader
                 component='div'
                 sx={{
@@ -54,12 +54,7 @@ export default function TitlebarImageList() {
               .map((item) => (
                 <ImageListItem key={item.images[0].url}>
                   <Box
-                    onClick={() =>
-                      handleImageClick(
-                        item.images,
-                        item.title
-                      )
-                    }
+                    onClick={() => handleImageClick(item.images, item.title)}
                     sx={{
                       width: '100%',
                       height: '100%',
@@ -121,6 +116,26 @@ interface CollectionItem {
 }
 
 export const collections: CollectionItem[] = [
+  {
+    id: 'breakfast-1',
+    images: [
+      {
+        url: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        alt: 'Breakfast view 1',
+      },
+      {
+        url: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        alt: 'Breakfast view 2',
+      },
+      {
+        url: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        alt: 'Breakfast view 3',
+      },
+    ],
+    title: 'Breakfast',
+    author: '@bkristastucchio',
+    category: 'Paper Theaters',
+  },
   {
     id: 'breakfast-1',
     images: [
